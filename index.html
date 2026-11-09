@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная | Мой Интерьерный Блог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Мой Интерьерный Блог</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="styles.html">Стили</a>
+            <a href="ideas.html">Идеи</a>
+            <a href="materials.html">Материалы</a>
+            <a href="favorite.html">Фаворит</a>
+            <a href="game.html">Играть 🎮</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Добро пожаловать!</h2>
+        <p>Привет! Это мой блог о дизайне интерьера и создании уюта. Здесь я делюсь идеями и находками.</p>
+        
+        <div class="slider-container">
+            <div class="slider">
+                <img src="img/main.jpg" alt="Слайд 1" class="slide active">
+                <img src="img/scandi.jpg" alt="Слайд 2" class="slide">
+                <img src="img/loft.jpg" alt="Слайд 3" class="slide">
+            </div>
+            <button class="slider-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="slider-btn next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <h3>Что вы найдете здесь:</h3>
+        
+        <div class="grid-container">
+            <div class="card">
+                <h3>Разбор стилей</h3>
+                <p>Узнайте больше о сканди, лофте и минимализме.</p>
+            </div>
+            <div class="card">
+                <h3>Практические советы</h3>
+                <p>Как зонировать пространство и выбрать свет.</p>
+            </div>
+            <div class="card">
+                <h3>Обзоры материалов</h3>
+                <p>На чем стоит экономить, а на чем нельзя.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Мой Интерьерный Блог.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
